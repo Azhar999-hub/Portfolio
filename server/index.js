@@ -31,17 +31,12 @@ app.use("/experience", experienceRouter);
 app.use("/education", educationRouter);
 app.use("/about", aboutRouter);
 
-app.get('/', (req, res)=>{
-  app.use(express.static(path.resolve(__dirname,'client','build')))
-  res.sendFile(path.resolve(__dirname,'client','build','index.html'))
-})
-
 const fs = require("fs");
 
 
 const uploadFolder = "uploads";
 
-// Check if the uploads folder exists, and create it if not
+
 if (!fs.existsSync(uploadFolder)) {
   fs.mkdirSync(uploadFolder);
 }
