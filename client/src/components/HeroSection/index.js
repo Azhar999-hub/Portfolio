@@ -81,7 +81,7 @@ const HeroSection = () => {
                     <div>
                       <a
                         className="btns btn-gradient btn-glow"
-                        href="https://drive.google.com/file/d/1UbfLDigr1KOJg0aDPUgMbUWupSZR9_EB/view?usp=drive_link"
+                        href="https://drive.google.com/drive/u/0/folders/1gS1gabinl-zWduuqJSzeGsDJMrKhLfMq"
                         target="display">
                         Check Resume
                       </a>
